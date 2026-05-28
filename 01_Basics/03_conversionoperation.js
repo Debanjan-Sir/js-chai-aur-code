@@ -19,14 +19,14 @@
 // console.log(typeof valInNumber); // number
 
 
-let score = "100";
+// let score = "100";
 
-console.log(score); // 100
-console.log(typeof score); // string
+// console.log(score); // 100
+// console.log(typeof score); // string
 
-let valInNumber = Number(score); // converts score to a number (though it's already a number)
-console.log(valInNumber); // 100
-console.log(typeof valInNumber); // number
+// let valInNumber = Number(score); // converts score to a number (though it's already a number)
+// console.log(valInNumber); // 100
+// console.log(typeof valInNumber); // number
 
 
 
@@ -39,9 +39,26 @@ console.log(typeof valInNumber); // number
 
 /************Operations************/
 
-console.log("1"+ 2); // 12 (string concatenation)
-console.log("1" - 2); // -1 (string is converted to number and then subtraction is performed)
-console.log(1 + "2"); // 12 (string is converted to number and then addition is performed)
-console.log("1" + "2"); // 12 (string concatenation)
-console.log("1" + 2 + 3); // 123 (string concatenation)
-console.log(1 + 2 + "3"); // 33 (string concatenation)
+// console.log("1"+ 2); // 12 (string concatenation)
+// console.log("1" - 2); // -1 (string is converted to number and then subtraction is performed)
+// console.log(1 + "2"); // 12 (string is converted to number and then addition is performed)
+// console.log("1" + "2"); // 12 (string concatenation)
+// console.log("1" + 2 + 3); // 123 (string concatenation)
+// console.log(1 + 2 + "3"); // 33 (string concatenation)
+
+
+
+
+
+
+
+
+/****************************Comparision*************************/
+
+console.log("2" > 1); // true (string is converted to number and then comparison is performed)
+console.log("02" > 1); // false (string is converted to number and then comparison is performed)
+
+
+console.log(null > 0)
+console.log(null == 0)
+console.log(null >= 0)
